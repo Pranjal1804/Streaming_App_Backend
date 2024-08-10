@@ -1,0 +1,19 @@
+{
+  "name": "complex_backend",
+  "version": "1.0.0",
+  "description": "This is a complex backend project that focuses on all aspects of backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "backend",
+    "jwt",
+    "modelling",
+    "hooks",
+    "databases"
+  ],
+  "author": "Pranjal Mitra",
+  "license": "ISC"
+}
