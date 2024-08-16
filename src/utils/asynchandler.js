@@ -9,3 +9,12 @@ const asynchandler=(func)=>async (error,req,res,next)=>{
         }
 }
 export default asynchandler
+
+
+
+
+/*const asynchandler = (requesthandler)=>{
+    (error,req,res,next)=>{
+       Promise.resolve(requesthandler(error,req,res,next)).catch((err)=>next(err))
+    }
+}*/
