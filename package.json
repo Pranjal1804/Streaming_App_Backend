@@ -2,10 +2,10 @@
   "name": "complex_backend",
   "version": "1.0.0",
   "description": "This is a complex backend project that focuses on all aspects of backend.",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon  -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon  -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -16,5 +16,15 @@
     "databases"
   ],
   "author": "Pranjal Mitra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3"
+  }
 }
