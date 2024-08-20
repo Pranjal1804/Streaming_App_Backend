@@ -10,4 +10,7 @@ app.use(express.json({limit:"100kb"}))
 app.use(express.urlencoded({extended:true,limit:"50kb"}))
 app.use(express.static("public"))
 app.use(cookieParser())
+//exports router
+import userRouter from "./routes/users.routes.js"
+app.use("/api/v1/users",userRouter)
 export default app
