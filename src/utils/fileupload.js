@@ -18,5 +18,5 @@ const cloudUpload=async (localfile) => {
          return null;
     }
 }
-export default cloudUpload
+export {cloudUpload} 
  
